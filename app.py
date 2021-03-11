@@ -1,7 +1,6 @@
 import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-​
 student_files = [doc for doc in os.listdir() if doc.endswith('.txt')]
 student_notes =[open(File).read() for File in  student_files]
 ​
