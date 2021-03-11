@@ -20,5 +20,5 @@ def check_plagiarism():
             score = (student_pair[0], student_pair[1],sim_score)
             plagiarism_results.add(score)
     return plagiarism_results
-  for data in check_plagiarism():
+for data in check_plagiarism():
     print(data)
