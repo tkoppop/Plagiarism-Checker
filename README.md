@@ -1,5 +1,7 @@
 # Plagarism-Checker
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3512966900d04d85952cc2b0fe33ce3e)](https://app.codacy.com/gh/tkoppop/Plagarism-Checker?utm_source=github.com&utm_medium=referral&utm_content=tkoppop/Plagarism-Checker&utm_campaign=Badge_Grade_Settings)
+
 Using pythong, I have created a plagarism checker that simply tests the similariy between certain files in the same folder. It use Vectorizer to create a numerical value of the files, and implements cosine similarity based of cosine law. Basically the file gets turned into a vector, and the cosine similarity reads the angle between the two vectors and lists that as the similarity. 
 
 Jan 12, 2021:
